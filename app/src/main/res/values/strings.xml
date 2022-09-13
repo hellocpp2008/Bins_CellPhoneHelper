@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BiffHelps</string>
+    <string name="str_login_hint">请输入手机号登录</string>
+    <string name="str_login_btn">登录</string>
+    <string name="str_default_name">周先生</string>
+    <string name="str_default_email">mrzhou1024@163.com</string>
+
+    <!-- 菜单   -->
+    <string name="str_menu_friends">常用联系人</string>
+    <string name="str_menu_contact_backup">通讯录备份</string>
+    <string name="str_menu_picture_backup">照片备份</string>
+    <string name="str_menu_file_backup">文件备份</string>
+    <string name="str_menu_cloud_notes">备忘录</string>
+    <string name="str_menu_todo_reminder">待办提醒</string>
+    <string name="str_menu_calendar_schedule">万年历-日程</string>
+
+    <!-- toolBar   -->
+    <string name="str_toolbar_backup">后退</string>
+    <string name="str_toolbar_delete">删除</string>
+    <string name="str_toolbar_settings">设置</string>
+
+    <!-- 提示文字   -->
+    <string name="re_loading">加载中...</string>
+
+
+</resources>

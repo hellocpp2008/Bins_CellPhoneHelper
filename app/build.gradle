@@ -1,0 +1,59 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.bins.biffhelps"
+        minSdk 26
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    //implementation 'com.google.android.material:material:1.4.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // compile 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    //compile 'com.android.support:design:24.2.1'
+    // compile 'de.hdodenhof:circleimageview:2.1.0'
+    // CircleImageView，它可以用来轻松实现图片圆形化的功能
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    // compile 'com.android.support:recyclerview-v7:24.2.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+    // compile 'com.android.support:cardview-v7:24.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    // Glide是一个超级强大的图片加载库，它不仅可以用于加载本地图片，还可以加载网络图片、GIF图片、甚至是本地视频。
+    // 最重要的是，Glide的用法非常简单，只需一行代码就能轻松实现复杂的图片加载功能。
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.litepal.guolindev:core:3.2.3'
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- group表示一个组，checkableBehavior 指定为 single 表示组中的所有菜单项只能单选。-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/nav_friends"
+            android:title="@string/str_menu_friends" />
+        <item
+            android:id="@+id/nav_contact_backup"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_contact_backup" />
+        <item
+            android:id="@+id/nav_picture_backup"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_picture_backup" />
+        <item
+            android:id="@+id/nav_file_backup"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_file_backup" />
+        <item
+            android:id="@+id/nav_cloud_notes"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_cloud_notes" />
+        <item
+            android:id="@+id/nav_todo_reminder"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_todo_reminder" />
+        <item
+            android:id="@+id/nav_calendar_schedule"
+            android:icon="@drawable/nav_contact_backup"
+            android:title="@string/str_menu_calendar_schedule" />
+    </group>
+</menu>
